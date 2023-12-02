@@ -9,7 +9,7 @@ possible_chars = {'1', '2', '3', '4', '5', '6', '7', '8', '9'}
 possible_digits = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 sum = 0
-lines = readInput("input_1_2.txt")
+lines = readInput("day1//input_1_2.txt")
 
 for line in lines:
     num1 = str(0)
