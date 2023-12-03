@@ -27,7 +27,6 @@ lines = readInput("day2//input.txt")
 sum = 0
 for i in range(len(lines)):
     values = formatinput(lines[i])
-    # print("formated:" + str(values))
     minred = 0
     mingreen = 0
     minblue = 0
@@ -38,7 +37,5 @@ for i in range(len(lines)):
             mingreen = val[1]
         if (val[2] > minblue):
             minblue = val[2]
-    # print("red: " + str(minred)+ " green: " + str(mingreen) + " blue: " + str(minblue))
     sum += minred*mingreen*minblue
-    # print("Zeile passt: " + str(i+1))
 print(sum)
